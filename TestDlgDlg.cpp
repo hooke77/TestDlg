@@ -301,9 +301,6 @@ void CTestDlgDlg::OnButton5()
 	int x = 0;
 	int y = 0;
 	int i = 0; //不支持循环内定义变量，需要放在循环外定义
-	/// <summary>
-	// 测试提交
-	/// </summary>
 	for ( i=0;i<=6;i++ )
 	{
 		CRect rc(x+i*width,y,x+i*width + width, y + height);
